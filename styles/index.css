@@ -1,0 +1,31 @@
+:root {
+  --theme-color-1: #EDE8F5;
+  --theme-color-2: #ADBBDA;
+  --theme-color-3: #8697C4;
+  --theme-color-4: #7091E6;
+  --theme-color-5: #3D52A0;
+  --text-color: #020d36;
+  --text-color-2: #EDE8F5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: var(--text-color);
+}
+
+html, body {
+  height: 100%;
+  background-color: var(--theme-color-1);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}

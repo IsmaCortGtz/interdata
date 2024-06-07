@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 25px;
+  background-color: var(--theme-color-5);
+}
+
+header > img {
+  width: 80px;
+}
+
+h1 {
+  color: var(--text-color-2);
+}
